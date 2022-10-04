@@ -86,11 +86,11 @@ The student(s) with the highest mark. If multiple students have the same highest
 
 Inside that file create a class called **LatinSquareQuestion**.
 
-Write a program that reads 4 lines from the user. Each line will consisted of 4 single digit numbers separated with a space (1 2 3 4) from 1 to 9 inclusive.
+Write a program that reads 4 lines from the user. Each line will consisted of 4 single digit numbers separated with a space (1 2 3 4) from 0 to 9 inclusive.
 
 Your program outputs if the 4 lines make a Latin square.
 
-1. Exactly 4 different single digit numbers are used from 1 to 9.
+1. Exactly 4 different single digit numbers are used from 0 to 9.
 
 2. In each row, no numbers repeat.
 
