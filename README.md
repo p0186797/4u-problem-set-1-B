@@ -6,7 +6,7 @@ Create a java file called **ProblemSetOne.java** and upload it to this repo. For
 
 Inside that file create a class called **MorseCodeQuestion**.
 
-Write a program that reads one line from the user containing a sequence of characters and outputs if it represents morse code. Morse code will be a sequence made up of: "-", "." and " " (dashes, periods and spaces) except there cannot be 2 or more spaces in a row.
+Write a program that reads one line from the user containing a sequence of characters and outputs if it represents morse code. Morse code will be a sequence made up of: "-", "." and " " (dashes, periods and spaces) except there cannot be 2 or more spaces in a row and it cannot start or end with a space.
 
 &nbsp;&nbsp; **Sample Input 1**
 
@@ -25,11 +25,19 @@ Write a program that reads one line from the user containing a sequence of chara
 
     no
 
-&nbsp;&nbsp; **Sample Input 2**
+&nbsp;&nbsp; **Sample Input 3**
 
     -. a -.5.-.
 
-&nbsp;&nbsp; **Sample Output 2**
+&nbsp;&nbsp; **Sample Output 3**
+
+    no
+
+&nbsp;&nbsp; **Sample Input 4**
+
+      -.-.-.
+
+&nbsp;&nbsp; **Sample Output 4**
 
     no
 ---
